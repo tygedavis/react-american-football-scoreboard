@@ -28,7 +28,7 @@ const BottomRow = () => {
       </div>
       <div className="quarterBtns">
         <button className="newQuarter" onClick={ () => setQuarter(quarter + 1)}>Quarter</button>
-        <button className="newQuarter" onClick={ () => setQuarter(0)}>Reset Quarter</button>
+        <button className="newQuarter" onClick={ () => setQuarter(1)}>Reset Quarter</button>
       </div>
     </div>
   );
